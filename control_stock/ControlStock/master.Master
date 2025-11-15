@@ -31,8 +31,11 @@
         </div>
 
         <a href="agregarProducto.aspx" class="btn btn-success ms-5">Agregar Producto</a>
+     
         <div class="container">
+            <hr />
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
             </asp:ContentPlaceHolder>
         </div>
     </form>
